@@ -1,0 +1,69 @@
+.editNewsItemScreen {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  z-index: 999;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #243647;
+}
+
+.editNewsItemScreen_titleInput::placeholder,
+.editNewsItemScreen_textInput::placeholder {
+  color: #06201c;
+}
+
+.editNewsItemScreen_titleInput {
+  height: 2rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  background: #a7c3dc;
+  color: #000000;
+  font-weight: bold;
+  font-size: 15px;
+  color: #06201c;
+}
+
+.editNewsItemScreen_textInput {
+  flex-grow: 1;
+  resize: none;
+  padding: 0.5rem;
+  background: #a7c3dc;
+  color: #06201c;
+}
+
+.editNewsItemScreen_buttonsContainer {
+  height: 5rem;
+  margin-top: auto;
+  display: flex;
+}
+
+.editNewsItemScreen button {
+  transition: all 0.3s ease;
+  background: #243647;
+  border-top: 2px solid #16212b;
+  color: #a7c3dc;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.editNewsItemScreen button:hover {
+  background: #2c455d;
+}
+
+.editNewsItemScreen_goBackBtn {
+  flex-grow: 1;
+  border-right: 1px solid #37526c;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.editNewsItemScreen_createBtn {
+  flex-grow: 4;
+}
+
+.editNewsItemScreen_buttonsContainer > button {
+  transition: all 0.3s linear;
+}
